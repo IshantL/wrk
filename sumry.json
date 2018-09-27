@@ -6,6 +6,33 @@
 		"name": "Ralf Westphal",
 		"position": "Clean Code Development Trainer, Consultant, Author, Speaker",
 		"shortbio": "Ralf Westphal is a trainer, consultant, and co-founder of a large German Clean Code initiative. His focus is on sustainable software development and making teams fit for a VUCA world. Since 1997 Ralf also has written extensively in blogs, magazines, and books. In addition he's a speaker at developer conferences in Germany, Europe and abroad.",
-		"location": "Hamburg, Germany"
+		"location": "Hamburg, Germany",
+		"socialmedia": [
+			{
+				"icon": "twitter",
+				"url": "http://twitter.com/ralfw"
+			},
+			{
+				"icon": "linkedin",
+				"url": "https://www.linkedin.com/in/ralf-westphal/"
+			},
+			{
+				"icon": "email",
+				"url": "info@ralfw.de"
+			},
+			{
+				"icon": "xing",
+				"url": "http://www.xing.com/profile/Ralf_Westphal"
+			},
+			{
+				"icon": "github",
+				"url": "https://github.com/ralfw"
+			},
+			{
+				"icon": "web",
+				"url": "https://ralfw.de",
+				"tooltip": "Homepage"
+			}
+		]
 	}
 }

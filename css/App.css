@@ -50,6 +50,7 @@
   border-radius: 50%;
   width: 192px;
   height: 192px;
+  object-fit: cover;
 }
 
 .App-section-container-profile{
@@ -83,6 +84,55 @@
     font-weight: 400;
 }
 .location{
-    color: #9fadb7;
+    margin-top: 10px;
+    border: 1.6px solid #bcdad5;
+    padding: 3px 8px;
+    margin-left: 6px;
+    line-height: 24px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(127, 141, 138)!important
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+span.location:hover a {
+ color: #16a085!important;
+}
+
+span.location:hover  {
+ color: #16a085!important;
+ border-color: #16a085!important;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: rgb(127, 141, 138)!important;  
+}
+
+.socialmedia{
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+.social-links{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 3px;
+  vertical-align: middle;
+}
+
+.social-links >a>i {
+    background: #9fadb7;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    font-size: 13px;
+    border-radius: 4px;
+  }
