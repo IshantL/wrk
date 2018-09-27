@@ -92,7 +92,8 @@
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    color: rgb(127, 141, 138)!important
+    color: rgb(127, 141, 138)!important;
+    font-size: 15px;
 }
 
 img {
@@ -128,11 +129,49 @@ a:hover, a:visited, a:link, a:active{
 }
 
 .social-links >a>i {
-    background: #9fadb7;
-    color: #fff;
     width: 24px;
     height: 24px;
     line-height: 26px;
     font-size: 13px;
     border-radius: 4px;
   }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #a9733c;
+  color: white;
+}
+
+.fa-globe {
+  background: #430297;
+  color: white;
+}
+
+.fa-envelope {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-github {
+  background: #191717;
+  color: white;
+}
+
+.fa-xing {
+  background: #16a085;
+  color: white;
+}

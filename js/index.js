@@ -20,6 +20,36 @@ readTextFile("./sumry.json", function(text){
     var position=data.personaldata.position;
     var shortbio=data.personaldata.shortbio;
     var location=data.personaldata.location;
+    data.personaldata.socialmedia.forEach(createElement);  
+
+function createElement(arrayItem, index, array) {
+    debugger;
+    if(arrayItem.icon==="twitter"){
+         var spanObj = "<span>" + arrayItem.url + "</span>"
+        //var spanObj = "<a href="+ arrayItem.url +"><i class="fa fa-twitter"></i></a></span>"
+        document.getElementById('myList').innerHTML +=spanObj;
+    }else if(arrayItem.icon==="linkedin"){
+        var spanObj = "<span>" + arrayItem.url + "</span>"
+        document.getElementById('myList').innerHTML +=spanObj;
+    }else if(arrayItem.icon==="email"){
+
+    }else if(arrayItem.icon==="xing"){
+
+    }else if(arrayItem.icon==="github"){
+
+    }else if(arrayItem.icon==="web"){
+        
+    }else if(arrayItem.icon==="instagram"){
+        
+    }else if(arrayItem.icon==="facebook"){
+        
+    }             
+    
+   //var list = document.getElementById("myList");
+    //list.insertBefore(spanObj, list.childNodes[0]);
+
+}
+
 
 	document.getElementById('header').style.backgroundImage="url("+tileImage+")";
 	document.getElementById('profile-pic').src=profilePic; 
